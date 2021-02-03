@@ -1,0 +1,11 @@
+Setup a malware analysis lab, for your portfolio
+
+1. Setup the toolset
+    -> Wireshark
+    -> PeStudio
+    -> RegShot / Totalcommander
+    -> ProcessExplorer
+    -> ProcessMonitor
+    -> Fakenet / ApateDNS
+    -> Hexinator
+    -> Resource Hacker
