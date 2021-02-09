@@ -16,10 +16,10 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Containter
+  Container
 } from "reactstrap";
 
-function NavBar(){
+function NavigationBar(){
   //cosntants used across the whole function
   const [navCollapse, setNavCollapse] = React.useState(false);
   const [navColour, setNavColour] = React.useState("navbar-transparent");
@@ -40,14 +40,14 @@ function NavBar(){
       document.body.scrollTop > 299
     )
     
-    {setNavbarColor("");} 
+    {setNavColour("");} 
     
     else if (
       document.documentElement.scrollTop < 300 ||
       document.body.scrollTop < 300
     ) 
     
-    {setNavbarColor("navbar-transparent");}
+    {setNavColour("navbar-transparent");}
   };
 
   window.addEventListener("scroll", updateNavbarColor);
@@ -59,7 +59,7 @@ function NavBar(){
 
 
   return(
-    <NavBar
+    <Navbar
       className={classnames("fixed-top", navColour)}
       expand="lg"
       color-on-scroll="300"
@@ -69,7 +69,7 @@ function NavBar(){
           {/* make sure to update the /index page to an actual real address*/}
           <NavbarBrand
             data-placement="bottom"
-            to="/home"
+            //to="/home"
             target="_blank"
             title="Return Home"
             tag={Link}
@@ -94,25 +94,25 @@ function NavBar(){
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/home" tag={Link}>
+              <NavLink /*to="/home"*/ tag={Link}>
                 <i className="navbar home-layout"/> /home
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink to="/work" tag={Link}>
+              <NavLink /*to="/work"*/ tag={Link}>
                 <i className="navbar work-layout"/> /work
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink to="/about" tag={Link}>
+              <NavLink /*to="/about"*/ tag={Link}>
                 <i className="navbar about-layout"/> /about
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink to="/contact" tag={Link}>
+              <NavLink /*to="/contact"*/ tag={Link}>
                 <i className="navbar contact-layout"/> /contact
               </NavLink>
             </NavItem>
@@ -155,11 +155,8 @@ function NavBar(){
           </Nav>
         </Collapse>        
       </Container>
-    </NavBar>
+    </Navbar>
   );
 }
 
-
-
-
-export default NavBar;
+export default NavigationBar;

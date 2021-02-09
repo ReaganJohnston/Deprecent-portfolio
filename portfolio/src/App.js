@@ -2,6 +2,7 @@ import './App.css';
 import React from "react"
 
 // reactstrap components
+/*
 import {
     Button,
     Label,
@@ -15,30 +16,20 @@ import {
     Container,
     Row,
     Col,
-} from "reactstrap";
+} from "reactstrap"; */
 
-
+import HomePage from "./pages/home.js"
 
 function App() {
   return (
-    
+    <HomePage />
+  );
+}
+
+export default App;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {/*}
+/*}
     <header id="header">
     <div class="header container">
         <div class="header-breadcrumb">
@@ -69,8 +60,4 @@ function App() {
             </ul>
         </div>
     </div>
-  </header> */}
-  );
-}
-
-export default App;
+  </header> */
