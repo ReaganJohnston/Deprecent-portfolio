@@ -106,13 +106,13 @@ function NavigationBar(){
             </NavItem>
 
             <NavItem>
-              <NavLink /*to="/about"*/ tag={Link}>
+              <NavLink to="/about" tag={Link}>
                 <i className="navbar about-layout"/> /about
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink /*to="/contact"*/ tag={Link}>
+              <NavLink to="/contact" tag={Link}>
                 <i className="navbar contact-layout"/> /contact
               </NavLink>
             </NavItem>

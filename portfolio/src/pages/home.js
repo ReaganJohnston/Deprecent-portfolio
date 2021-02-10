@@ -6,24 +6,9 @@
 */
 
 import React from "react";
-/*
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-*/
+
 import NavigationBar from "./../components/navbar.js";
+import Header from "./../components/header.js"
 
 
 function HomePage(){
@@ -37,6 +22,7 @@ function HomePage(){
   return(
     <>
     <NavigationBar />
+    <Header />
     </>
   );
 }
