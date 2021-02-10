@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /material-kit-react-master
+/package-lock.json
 
 
 # testing
