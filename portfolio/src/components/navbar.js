@@ -120,7 +120,7 @@ function NavigationBar(){
             <NavItem>
               <NavLink
               data-placement="bottom"
-              href="https://instagram.com"
+              href="https://www.instagram.com/"
               target="_blank"
               title="Follow me on Instagram"
               >
@@ -144,7 +144,7 @@ function NavigationBar(){
             <NavItem>
               <NavLink
               data-placement="bottom"
-              href="https://github.com"
+              href="https://www.github.com"
               target="_blank"
               title="Check out my projects repo"
               >

@@ -1,5 +1,15 @@
 import './App.css';
 import React from "react"
+import HomePage from "./pages/home.js"
+
+function App() {
+  return (
+    <HomePage />
+  );
+}
+
+export default App;
+
 
 // reactstrap components
 /*
@@ -17,17 +27,6 @@ import {
     Row,
     Col,
 } from "reactstrap"; */
-
-import HomePage from "./pages/home.js"
-
-function App() {
-  return (
-    <HomePage />
-  );
-}
-
-export default App;
-
 
 /*}
     <header id="header">

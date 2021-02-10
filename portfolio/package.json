@@ -22,10 +22,11 @@
 
   },
   "scripts": {
-    "start": "SET PORT=8080 && react-scripts start",
+    "start": "SET PORT=3001 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stop": "reac-scripts stop"
   },
   "eslintConfig": {
     "extends": [

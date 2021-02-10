@@ -24,6 +24,8 @@ import {
 } from "reactstrap";
 */
 import NavigationBar from "./../components/navbar.js";
+
+
 function HomePage(){
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
