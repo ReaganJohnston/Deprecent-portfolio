@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 //styles
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/paper-kit.css";
+import "./assets/css/relative.css";
 
 //pages
 import App from './App';

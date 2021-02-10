@@ -69,7 +69,7 @@ function NavigationBar(){
           {/* make sure to update the /index page to an actual real address*/}
           <NavbarBrand
             data-placement="bottom"
-            //to="/home"
+            to="/home"
             target="_blank"
             title="Return Home"
             tag={Link}
@@ -95,25 +95,25 @@ function NavigationBar(){
           <Nav navbar>
             <NavItem>
               <NavLink to="/home" tag={Link}>
-                <i className="navbar home-layout"/> /home
+                <i className="navbar-home-layout"/> home()
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink to="/work" tag={Link}>
-                <i className="navbar work-layout"/> /work
+                <i className="navbar-work-layout"/> work()
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink to="/about" tag={Link}>
-                <i className="navbar about-layout"/> /about
+                <i className="navbar about-layout"/> about()
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink to="/contact" tag={Link}>
-                <i className="navbar contact-layout"/> /contact
+                <i className="navbar contact-layout"/> contact()
               </NavLink>
             </NavItem>
 

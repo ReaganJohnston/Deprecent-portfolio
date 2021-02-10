@@ -7,21 +7,16 @@
 
 import React from "react";
 import {Container} from "reactstrap"
+import background from "./../assets/img/uriel-soberanes.jpg"
 
 function Header(){
   return(
     <>
     <div
       className="page-header section-dark"
-      style={{
-        backgroundImage:
-          "url(" + require("./../assets/img/bruno-abatti.jpg") + ")",
-      }}
+      style={{backgroundImage: `url(${background})`}}
       >
-
-
       </div>
-
     </>
   )
 }
