@@ -65,7 +65,7 @@ function NavigationBar(){
       color-on-scroll="300"
     >
       <Container>
-        <div className="translate">
+        <div className="navbar-translate">
           {/* make sure to update the /index page to an actual real address*/}
           <NavbarBrand
             data-placement="bottom"
@@ -78,29 +78,29 @@ function NavigationBar(){
           <button
             aria-expanded={navCollapse}
             onClick={toggleCollapse}
-            className={classnames("nav-toggler nav-toggler",{
+            className={classnames("navbar-toggler navbar-toggler",{
                 toggled: navCollapse,
             })}
           >
-            <span className="navbar-toggle 1"/>
-            <span className="navbar-toggle 2"/>
-            <span className="navbar-toggle 3"/>
+            <span className="navbar-toggler-bar bar1"/>
+            <span className="navbar-toggler-bar bar2"/>
+            <span className="navbar-toggler-bar bar3"/>
           </button>
         </div>
         <Collapse
-          className="content-end"
+          className="justify-content-end"
           navbar
           isOpen={navCollapse}
         >
           <Nav navbar>
             <NavItem>
-              <NavLink /*to="/home"*/ tag={Link}>
+              <NavLink to="/home" tag={Link}>
                 <i className="navbar home-layout"/> /home
               </NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink /*to="/work"*/ tag={Link}>
+              <NavLink to="/work" tag={Link}>
                 <i className="navbar work-layout"/> /work
               </NavLink>
             </NavItem>

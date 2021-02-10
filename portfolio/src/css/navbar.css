@@ -1,0 +1,33 @@
+.fixed-top{
+  -webkit-backface-visibility: hidden; }
+.navbar-translate {
+  -webkit-transform: translateX(-230px);
+  -moz-transform: translateX(-230px);
+  -o-transform: translateX(-230px);
+  -ms-transform: translateX(-230px);
+  transform: translateX(-230px); }
+.navbar .navbar-toggler:focus {
+  outline: none; }
+.navbar:not([class*="bg"]) .navbar-toggler .navbar-toggler-bar {
+  background: #66615B !important; }
+
+.navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
+  background: #FFFFFF !important; }
+
+.navbar .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar,
+.navbar .navbar-toggler .navbar-toggler-icon + .navbar-toggler-icon {
+  margin-top: 4px; }
+
+.navbar .navbar-toggler .navbar-toggler-bar {
+  background: #FFFFFF !important;
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 0 auto; }
+
+.burger-menu .navbar .container .navbar-toggler {
+  display: block;
+  margin-top: 20px; }
+
