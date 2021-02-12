@@ -7,16 +7,35 @@
 
 import React from "react";
 import {Container} from "reactstrap"
-import background from "./../assets/img/uriel-soberanes.jpg"
+import background from "./../assets/img/main-image.jpg"
+
+
+const imgStyle = {
+  width: '100vw',
+  height: '30vw',
+  backgroundImage: `url(${background})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat'
+}
 
 function Header(){
   return(
     <>
     <div
-      className="page-header section-dark"
-      style={{backgroundImage: `url(${background})`}}
+      className="page-header"
+      style={imgStyle}
       >
-      </div>
+        <div className="filter"/>
+        <div className="content-center">
+          <Container>
+            <div className="title-brand">
+
+            </div>
+          </Container>
+        </div>
+    </div>
+
     </>
   )
 }
