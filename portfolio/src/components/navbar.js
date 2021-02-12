@@ -8,6 +8,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import classnames from "classnames"
+import "./../assets/css/nav.css"
 
 import {
   Collapse,
@@ -19,61 +20,46 @@ import {
   Container
 } from "reactstrap";
 
-function NavigationBar(){
-  //cosntants used across the whole function
-  const [navCollapse, setNavCollapse] = React.useState(false);
-  const [navColour, setNavColour] = React.useState("navbar-transparent");
-
-  const toggleCollapse = () => {
-    document.documentElement.classList.toggle("nav-open");
-    setNavCollapse(!navCollapse);
+class NavigationBar extends React.Component{
+  listener = null;
+  state = {
+    nav:false
   }
+  componentDidMount() {
+     window.addEventListener("scroll", this.handleScroll);
+   }
+   componentWillUnmount() {
+      window.removeEventListener('scroll');
+    }
+   handleScroll= () => {
+     if (window.pageYOffset > 140) {
+         if(!this.state.nav){
+           this.setState({ nav: true });
+         }
+     }else{
+         if(this.state.nav){
+           this.setState({ nav: false });
+         }
+     }
+    } 
 
-
-  /*  code imported from kit-react, updates and changes the nav size depending on the size
-  of the window opened    */
-  
-  React.useEffect(() => {
-  const updateNavbarColor = () => {
-    if (
-      document.documentElement.scrollTop > 299 ||
-      document.body.scrollTop > 299
-    )
-    
-    {setNavColour("");} 
-    
-    else if (
-      document.documentElement.scrollTop < 300 ||
-      document.body.scrollTop < 300
-    ) 
-    
-    {setNavColour("navbar-transparent");}
-  };
-
-  window.addEventListener("scroll", updateNavbarColor);
-
-  return function cleanup() {
-    window.removeEventListener("scroll", updateNavbarColor);
-  };
-  });
-
-
+  render(){
   return(
+    <div className={`Nav ${this.state.nav && 'Nav__black'}`}>
     <Navbar
-      className={classnames("fixed-top", navColour)}
+      className={classnames("fixed-top")}
       expand="lg"
       color-on-scroll="300"
     >
       <div class="grid-container">
         <div className="navbar-left">
-          <i className="changing-title"/> Reagan Johnston
+          <i className="changing-title"/> &#47;home
         </div>
 
         <div className="navbar-right">
           <Collapse
             className="justify-content-end"
             navbar
-            isOpen={navCollapse}
           >
             <Nav navbar>
               <NavItem>
@@ -140,8 +126,9 @@ function NavigationBar(){
         </div>      
       </div>
     </Navbar>
+    </div>
   );
-}
+}}
 
 export default NavigationBar;
 
@@ -165,3 +152,41 @@ export default NavigationBar;
             <span className="navbar-toggler-bar bar2"/>
             <span className="navbar-toggler-bar bar3"/>
           </button>*/
+
+/*
+  // //cosntants used across the whole function
+  // const [navCollapse, setNavCollapse] = React.useState(false);
+  // const [navColour, setNavColour] = React.useState("navbar-transparent");
+
+  // const toggleCollapse = () => {
+  //   document.documentElement.classList.toggle("nav-open");
+  //   setNavCollapse(!navCollapse);
+  // }
+
+
+  // /*  code imported from kit-react, updates and changes the nav size depending on the size
+  // of the window opened    */
+  
+  // React.useEffect(() => {
+  //   const updateNavbarColor = () => {
+  //     if (
+  //       document.documentElement.scrollTop > 299 ||
+  //       document.body.scrollTop > 299
+  //     )
+      
+  //     {setNavColour("");} 
+      
+  //     else if (
+  //       document.documentElement.scrollTop < 300 ||
+  //       document.body.scrollTop < 300
+  //     ) 
+      
+  //     {setNavColour("navbar-transparent");}
+  //   };
+  
+  //   window.addEventListener("scroll", updateNavbarColor);
+  
+  //   return function cleanup() {
+  //     window.removeEventListener("scroll", updateNavbarColor);
+  //   };
+  //   });

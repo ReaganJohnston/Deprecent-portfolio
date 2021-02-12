@@ -12,7 +12,7 @@ import background from "./../assets/img/main-image.jpg"
 
 const imgStyle = {
   width: '100vw',
-  height: '30vw',
+  height: '50vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
