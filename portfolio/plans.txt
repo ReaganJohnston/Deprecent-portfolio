@@ -1,0 +1,9 @@
+- Card Themed
+- Soft gray background NOT BLACK
+- Gold border/trim/accents
+- Gold words to highlight important words
+- Use purple as the secondary
+- Gold loading when changing pages
+- Card flicking sound when hovering over the cards
+- Change Navbar to have a cluster on the right hand side with all the icons
+

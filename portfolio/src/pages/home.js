@@ -6,17 +6,16 @@
 */
 
 import React from "react";
-
 import NavigationBar from "./../components/navbar.js";
 import Header from "./../components/header.js"
-
 
 function HomePage(){
   return(
     <>
     <NavigationBar />
-    <Header />
-    <Header />
+    <div class="card-header">
+      <Header />
+    </div>
     </>
   );
 }

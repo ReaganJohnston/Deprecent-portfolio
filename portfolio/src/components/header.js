@@ -7,12 +7,13 @@
 
 import React from "react";
 import {Container} from "reactstrap"
-import background from "./../assets/img/main-image.jpg"
+import background from "./../assets/img/trial-image5.jpg"
+
 
 
 const imgStyle = {
-  width: '100vw',
-  height: '50vw',
+  width: '99vw',
+  height: '45vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
@@ -26,13 +27,18 @@ function Header(){
       className="page-header"
       style={imgStyle}
       >
-        <div className="filter"/>
-        <div className="content-center">
-          <Container>
-            <div className="title-brand">
-
-            </div>
-          </Container>
+        <div className="header-title">
+          <h1><i>Reagan Johnston</i></h1>
+        </div>
+        <div className="header-sub1">
+          <li>
+            <h5>Frontend Software Developer</h5>
+          </li>
+        </div>
+        <div className="header-sub2">
+          <li>
+            <h5>Aspiring Cyber Security Specialist</h5>
+          </li>
         </div>
     </div>
 

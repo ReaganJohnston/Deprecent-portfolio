@@ -8,7 +8,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import classnames from "classnames"
-import "./../assets/css/nav.css"
+
 
 import {
   Collapse,
@@ -53,7 +53,7 @@ class NavigationBar extends React.Component{
     >
       <div class="grid-container">
         <div className="navbar-left">
-          <i className="changing-title"/> &#47;home
+          <i className="changing-title"/> reagan&#95;johnston &#47; home
         </div>
 
         <div className="navbar-right">
@@ -82,7 +82,7 @@ class NavigationBar extends React.Component{
 
               <NavItem>
                 <NavLink to="/contact" tag={Link}>
-                  <i className="navbar contact-layout"/> contact(  )
+                  <i className="navbar-contact-layout"/> contact(  )
                 </NavLink>
               </NavItem>
 
@@ -93,8 +93,8 @@ class NavigationBar extends React.Component{
                 target="_blank"
                 title="Follow me on Instagram"
                 >
-                  <i className="nav insta"/>
-                  <p className="nav placeholder-insta">Instagram</p>
+                  <i className="nav-insta"/>
+                  <p className="nav-placeholder-insta">Instagram</p>
                 </NavLink>
               </NavItem>
 
@@ -105,8 +105,8 @@ class NavigationBar extends React.Component{
                 target="_blank"
                 title="Follow me on LinkedIn"
                 >
-                  <i className="nav LinkedIn"/>
-                  <p className="nav placeholder-LinkedIn">LinkedIn</p>
+                  <i className="nav-LinkedIn"/>
+                  <p className="nav-placeholder-LinkedIn">LinkedIn</p>
                 </NavLink>
               </NavItem>
 
@@ -117,8 +117,8 @@ class NavigationBar extends React.Component{
                 target="_blank"
                 title="Check out my projects repo"
                 >
-                  <i className="nav Git"/>
-                  <p className="nav placeholder-Git">GitHub</p>
+                  <i className="nav-Git"/>
+                  <p className="nav-placeholder-Git">GitHub</p>
                 </NavLink>
               </NavItem>
             </Nav>

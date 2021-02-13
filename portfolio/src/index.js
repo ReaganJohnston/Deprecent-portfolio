@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 //styles
-//import "./assets/css/bootstrap.min.css";
-//import "./assets/css/paper-kit.css";
+import "./assets/css/header.css";
+import "./assets/css/homepage.css";
 import "./assets/css/index.css";
-import "./assets/css/relative.css";
+import "./assets/css/nav.css";
 
 //pages
 import App from './App';
