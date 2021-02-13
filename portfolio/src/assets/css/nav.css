@@ -33,6 +33,7 @@ nav li a {
 }
 .navbar li a:hover {
   color: #682ae9;
+  font-weight:500;
 }
 
 .navbar-left{
@@ -58,3 +59,48 @@ nav li a {
   width: 100%;
 }
 
+.nav-placeholder-insta{
+  background-image:url('./../img/insta.png');
+  display:inline-block;
+  height:25px; /* your image height */
+  text-indent:-99999em;
+  width:25px; /* your image width */
+  background-position: center;
+  object-fit: contain;
+  background-size: contain;
+}
+
+
+.nav-placeholder-insta:hover {
+  background-image:url('./../img/insta_highlight.png');
+}
+
+.nav-placeholder-LinkedIn{
+  background-image:url('./../img/linked-in.png');
+  display:inline-block;
+  height:25px; /* your image height */
+  text-indent:-99999em;
+  width:25px; /* your image width */
+  background-position: center;
+  object-fit:fill;
+  background-size: contain;
+}
+
+.nav-placeholder-LinkedIn:hover {
+  background-image:url('./../img/linked-in-highlight.png');
+}
+
+.nav-placeholder-Git{
+  background-image:url('./../img/git.png');
+  display:inline-block;
+  height:25px; /* your image height */
+  text-indent:-99999em;
+  width:25px; /* your image width */
+  background-position: center;
+  object-fit:fill;
+  background-size: contain;
+}
+
+.nav-placeholder-Git:hover {
+  background-image:url('./../img/git-highlight.png');
+}

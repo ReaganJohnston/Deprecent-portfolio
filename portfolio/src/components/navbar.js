@@ -10,6 +10,10 @@ import { Link } from "react-router-dom"
 import classnames from "classnames"
 
 
+//import insta from "./../assets/img/insta.png"
+// import linked from "./../assets/img/trial-image5.jpg"
+// import git from "./../assets/img/trial-image5.jpg"
+
 import {
   Collapse,
   NavbarBrand,
