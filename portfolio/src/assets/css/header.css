@@ -1,0 +1,38 @@
+.page-header{
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card-header{
+  transition: 0.3s;
+  padding: 10px 10px 10px;
+  border-radius: 5px; 
+  top: 0px;
+}
+
+
+.header-title{
+  color: #682ae9;
+  font-size: 30px;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  list-style-type: none;
+}
+
+.header-sub1{
+  color: #8c8796;
+  font-size: 34px;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  list-style-type: none;
+}
+
+.header-sub2{
+  color: #8c8796;
+  font-size: 34px;
+  position: absolute;
+  left: 5%;
+  top: 54%;
+  list-style-type: none;
+}
