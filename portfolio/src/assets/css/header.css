@@ -9,7 +9,6 @@
   top: 0px;
 }
 
-
 .header-title{
   color: #682ae9;
   font-size: 30px;
@@ -35,4 +34,21 @@
   left: 5%;
   top: 54%;
   list-style-type: none;
+}
+
+
+.body-card{
+  align-items: center;
+}
+.body-frameworks{
+  background-color: rgb(58, 56, 56); 
+  border-radius: 10px 10px 10px 10px;
+  vertical-align: middle;
+}
+
+.card-description{
+  transition: 0.3s;
+  padding: 10px 10px 10px;
+  border-radius: 5px; 
+  top: 0px;
 }

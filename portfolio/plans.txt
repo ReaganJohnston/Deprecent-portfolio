@@ -1,9 +1,87 @@
 - Card Themed
 - Soft gray background NOT BLACK
-- Gold border/trim/accents
-- Gold words to highlight important words
-- Use purple as the secondary
-- Gold loading when changing pages
+- Use purple as the primary
+- Purple loading when changing pages
 - Card flicking sound when hovering over the cards
 - Change Navbar to have a cluster on the right hand side with all the icons
+
+Current skill list:
+
+reaganjohnston.com
+- ReactJS
+- Vue
+- Node
+- GSAP
+- ScrollMagic
+- Javascript
+- Photoshop
+- Illistrator
+(need to start back-end development skills)
+
+
+johnstonorganics.com
+- ReactJS
+- Vue
+- Node
+- Adobe Photoshop
+- Adobe Illistrator
+(need to start back-end development skills)
+(additionally show all website security measures you implemented)
+
+
+
+==========================================================================================
+
+Visually stunning websites, corresponded with offensive offensive pen-testing.
+
+---------
+Who am I?
+---------
+
+Hello! my name is Reagan Johnston and I’m a software developer and offensive cyber-security analyst.
+Over the course of three years, I have learnt many skills, applications, frameworks and enumeration techniques to 
+satisfy my curiosity.
+
+For the past three years I have been developing and polising my programming skills to satisify my curiosity 
+
+
+Utilising frameworks such as:
+
+
+-----------
+(White card)
+Full-stack
+-----------
+- ReactJS
+- Vue
+- Node
+- GSAP
+- ScrollMagic
+- Javascript
+- Photoshop
+- Illistrator
+- Express
+- Javascript
+- HTML
+- CSS
+
+// Background symbol on this card
+< / >
+
+
+-----------
+(Black card)
+Cyber-security
+-----------
+nmap, ncat
+gobuster
+burpsuite
+metasploit
+powerup (enumuration)
+Meterpreter
+Hydra
+WinPeas
+RCE
+
+// Background symbol on this card
 

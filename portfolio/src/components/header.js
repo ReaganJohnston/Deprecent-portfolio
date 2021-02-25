@@ -12,7 +12,7 @@ import background from "./../assets/img/trial-image5.jpg"
 
 
 const imgStyle = {
-  width: '99vw',
+  width: '98vw',
   height: '45vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
@@ -32,12 +32,12 @@ function Header(){
         </div>
         <div className="header-sub1">
           <li>
-            <h5>Frontend Software Developer</h5>
+            <h5>Software Developer</h5>
           </li>
         </div>
         <div className="header-sub2">
           <li>
-            <h5>Aspiring Cyber Security Specialist</h5>
+            <h5>Cyber Security Specialist</h5>
           </li>
         </div>
     </div>
