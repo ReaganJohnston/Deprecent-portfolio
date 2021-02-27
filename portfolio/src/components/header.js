@@ -8,7 +8,6 @@
 import React, {Component, useState, useEffect} from "react";
 import background from "./../assets/img/trial-image5.jpg";
 import Typist from 'react-typist';
-import TypistLoop from 'react-typist-loop';
 
 
 
@@ -27,6 +26,7 @@ function Header() {
   useEffect(() => {
     setCount(1);
   }, [count]);
+
   return(
     <>
     <div

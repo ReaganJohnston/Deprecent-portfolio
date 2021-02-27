@@ -1,7 +1,6 @@
 /*
 =========================================================
 * Coded by Reagan Johnston
-* Utilising Paper Kit React - v1.2.0 frameworks
 =========================================================
 */
 
@@ -32,8 +31,10 @@ function HomePage(){
           <h4> I am passionate about building excellent software and applying my current cyber-security knowledge in the world around me.
             Over the course of three years, I have learnt many skills, applications, frameworks and enumeration techniques to 
             develop myself and satisify my inherent curiousity.
-             </h4>
+          </h4>
+          
         </div>
+
       </div>
     </div>
     <div class="Full-stack">

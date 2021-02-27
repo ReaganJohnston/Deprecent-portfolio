@@ -1,0 +1,16 @@
+.Loading-text{
+  position: absolute;
+  left: 45.5%;
+  top: 53%;
+}
+
+.Loading-text h4{
+  color: #682ae9;
+  font-size: 200%;
+}
+
+.Spinner{
+  position: absolute;
+  left: 47%;
+  top: 43%;
+}

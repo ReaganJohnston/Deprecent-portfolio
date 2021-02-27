@@ -8,15 +8,15 @@ import "./assets/css/header.css";
 import "./assets/css/homepage.css";
 import "./assets/css/index.css";
 import "./assets/css/nav.css";
+import "./assets/css/preload.css";
 
 //pages
 import App from './App';
-import HomePage from "./pages/home.js"
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/home" render={(props) => <HomePage {...props} />}/>
+      <Route path="/home" render={(props) => <App {...props} />}/>
       {/* apply routed pages when created later*/}
     </Switch>
   
