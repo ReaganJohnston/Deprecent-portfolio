@@ -34,13 +34,20 @@ render(){
         </div>
         <div className="header-sub1">
           <li>
-            <Typist>
-              Software Developer</Typist>
+            <Typist
+            cursor={{blink: true,
+                      show: true,
+                      element: '|'}}
+            avgTypingDelay={100}>
+              <span>Software Developer.</span>
+              <Typist.Backspace count={20} delay={1250} />
+              <span>Cyber Security Analyst.</span>
+              <Typist.Backspace count={24} delay={1250} />
+            </Typist>
           </li>
         </div>
         <div className="header-sub2">
           <li>
-            <h5>Cyber Security Specialist</h5>
           </li>
         </div>
     </div>

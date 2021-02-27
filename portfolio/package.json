@@ -18,6 +18,7 @@
     "react-scripts": "4.0.2",
     "react-typing-animation": "^1.6.2",
     "react-typist": "^2.0.5",
+    "react-typist-loop": "0.0.5",
     "reactstrap": "8.4.1",
     "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.0"
