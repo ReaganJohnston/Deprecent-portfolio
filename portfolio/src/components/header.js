@@ -5,9 +5,10 @@
 =========================================================
 */
 
-import React, {Component} from "react";
+import React, {Component, useState, useEffect} from "react";
 import background from "./../assets/img/trial-image5.jpg";
 import Typist from 'react-typist';
+import TypistLoop from 'react-typist-loop';
 
 
 
@@ -20,9 +21,12 @@ const imgStyle = {
   backgroundRepeat: 'no-repeat'
 }
 
+function Header() {
+  const [count, setCount] = useState(1);
 
-export class Header extends Component{
-render(){
+  useEffect(() => {
+    setCount(1);
+  }, [count]);
   return(
     <>
     <div
@@ -34,16 +38,16 @@ render(){
         </div>
         <div className="header-sub1">
           <li>
-            <Typist
-            cursor={{blink: true,
-                      show: true,
-                      element: '|'}}
-            avgTypingDelay={100}>
-              <span>Software Developer.</span>
-              <Typist.Backspace count={20} delay={1250} />
-              <span>Cyber Security Analyst.</span>
-              <Typist.Backspace count={24} delay={1250} />
-            </Typist>
+            {count ? (
+              <Typist avgTypingDelay={50} on onTypingDone={() => setCount(0)}>
+                <span>Software Developer.</span>
+                <Typist.Backspace count={24} delay={1000}/>
+                <span>Cyber Security Analyst.</span>
+                <Typist.Backspace count={24} delay={1000}/>
+                <span>Full Stack Developer.</span>
+                <Typist.Backspace count={24} delay={1000}/>
+              </Typist>
+            ): ("")}
           </li>
         </div>
         <div className="header-sub2">
@@ -51,9 +55,8 @@ render(){
           </li>
         </div>
     </div>
-
     </>
   )
-}}
+}
 
 export default Header;
