@@ -74,13 +74,13 @@ class NavigationBar extends React.Component{
 
               <NavItem>
                 <NavLink to="/work" tag={Link}>
-                  <i className="navbar-work-layout"/> work(  )
+                  <i className="navbar-work-layout"/> about(  )
                 </NavLink>
               </NavItem>
 
               <NavItem>
                 <NavLink to="/about" tag={Link}>
-                  <i className="navbar about-layout"/> about(  )
+                  <i className="navbar about-layout"/> work(  )
                 </NavLink>
               </NavItem>
 
