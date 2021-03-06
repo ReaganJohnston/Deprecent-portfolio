@@ -5,14 +5,14 @@
 =========================================================
 */
 
-import React, {Component, useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import background from "./../assets/img/trial-image5.jpg";
 import Typist from 'react-typist';
 
 
 
 const imgStyle = {
-  width: '98vw',
+  width: '96vw',
   height: '48vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
@@ -48,10 +48,6 @@ function Header() {
                 <Typist.Backspace count={24} delay={1000}/>
               </Typist>
             ): ("")}
-          </li>
-        </div>
-        <div className="header-sub2">
-          <li>
           </li>
         </div>
     </div>

@@ -16,13 +16,12 @@ import classnames from "classnames";
 
 import {
   Collapse,
-  NavbarBrand,
   Navbar,
   NavItem,
   NavLink,
-  Nav,
-  Container
+  Nav
 } from "reactstrap";
+
 
 class NavigationBar extends React.Component{
   listener = null;
@@ -33,10 +32,10 @@ class NavigationBar extends React.Component{
      window.addEventListener("scroll", this.handleScroll);
    }
    componentWillUnmount() {
-      window.removeEventListener('scroll');
+      window.removeEventListener('scroll', this.handleScroll);
     }
    handleScroll= () => {
-     if (window.pageYOffset > 140) {
+     if (window.pageYOffset > 350) {
          if(!this.state.nav){
            this.setState({ nav: true });
          }
@@ -49,7 +48,7 @@ class NavigationBar extends React.Component{
 
   render(){
   return(
-    <div className={`Nav ${this.state.nav && 'Nav__black'}`}>
+    <div className={`Nav ${this.state.nav && 'Nav__white'}`}>
     <Navbar
       className={classnames("fixed-top")}
       expand="lg"
@@ -135,62 +134,3 @@ class NavigationBar extends React.Component{
 }}
 
 export default NavigationBar;
-
-/*
-          <NavbarBrand
-            data-placement="bottom"
-            to="/home"
-            target="_blank"
-            title="Return Home"
-            tag={Link}
-          >Reagan Johnston</NavbarBrand>
-
-          <button
-            aria-expanded={navCollapse}
-            onClick={toggleCollapse}
-            className={classnames("navbar-toggler navbar-toggler",{
-                toggled: navCollapse,
-            })}
-          >
-            <span className="navbar-toggler-bar bar1"/>
-            <span className="navbar-toggler-bar bar2"/>
-            <span className="navbar-toggler-bar bar3"/>
-          </button>*/
-
-/*
-  // //cosntants used across the whole function
-  // const [navCollapse, setNavCollapse] = React.useState(false);
-  // const [navColour, setNavColour] = React.useState("navbar-transparent");
-
-  // const toggleCollapse = () => {
-  //   document.documentElement.classList.toggle("nav-open");
-  //   setNavCollapse(!navCollapse);
-  // }
-
-
-  // /*  code imported from kit-react, updates and changes the nav size depending on the size
-  // of the window opened    */
-  
-  // React.useEffect(() => {
-  //   const updateNavbarColor = () => {
-  //     if (
-  //       document.documentElement.scrollTop > 299 ||
-  //       document.body.scrollTop > 299
-  //     )
-      
-  //     {setNavColour("");} 
-      
-  //     else if (
-  //       document.documentElement.scrollTop < 300 ||
-  //       document.body.scrollTop < 300
-  //     ) 
-      
-  //     {setNavColour("navbar-transparent");}
-  //   };
-  
-  //   window.addEventListener("scroll", updateNavbarColor);
-  
-  //   return function cleanup() {
-  //     window.removeEventListener("scroll", updateNavbarColor);
-  //   };
-  //   });

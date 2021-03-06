@@ -1,54 +1,37 @@
 .page-header{
   border-radius: 10px 10px 10px 10px;
-}
-
-.card-header{
-  transition: 0.3s;
-  padding: 10px 10px 10px;
-  border-radius: 5px; 
-  top: 0px;
+  left: 10px;
+  align-self: center;
+  padding: 28px;
 }
 
 .header-title{
   color: #682ae9;
   font-size: 30px;
-  position: absolute;
-  left: 5%;
-  top: 40%;
   list-style-type: none;
+  text-indent: 6%; 
+  padding-top:17%;
 }
 
 .header-sub1{
   color: #8c8796;
   font-size: 34px;
-  position: absolute;
-  left: 5%;
-  top: 54%;
   list-style-type: none;
+  padding-top:0.01%;
+  text-indent: 6%;  
 }
 
-.header-sub2{
+
+
+/*
+.header-sub1{
   color: #8c8796;
   font-size: 34px;
-  position: absolute;
-  left: 5%;
-  top: 58%;
+  position: relative;
+  left: 4.5%;
+  top: 52%;
   list-style-type: none;
-}
+  width: 100%;
+  height: 100%;
+}*/
 
-
-.body-card{
-  align-items: center;
-}
-.body-frameworks{
-  background-color: rgb(58, 56, 56); 
-  border-radius: 10px 10px 10px 10px;
-  vertical-align: middle;
-}
-
-.card-description{
-  transition: 0.3s;
-  padding: 10px 10px 10px;
-  border-radius: 5px; 
-  top: 0px;
-}

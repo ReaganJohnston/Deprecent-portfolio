@@ -5,7 +5,7 @@
 */
 
 import React from "react";
-import Spinner, { GooSpinner } from "react-spinners-kit";
+import { GooSpinner } from "react-spinners-kit";
 
 function PreLoader(){
   return (

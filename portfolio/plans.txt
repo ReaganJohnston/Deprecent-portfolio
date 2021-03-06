@@ -5,31 +5,20 @@
 - Card flicking sound when hovering over the cards
 - Change Navbar to have a cluster on the right hand side with all the icons
 
-Current skill list:
-
-reaganjohnston.com
-- ReactJS
-- Vue
-- Node
-- GSAP
-- ScrollMagic
-- Javascript
-- Photoshop
-- Illistrator
-(need to start back-end development skills)
-
-
-johnstonorganics.com
-- ReactJS
-- Vue
-- Node
-- Adobe Photoshop
-- Adobe Illistrator
-(need to start back-end development skills)
-(additionally show all website security measures you implemented)
-
-
-
+==========================================================================================
+Issues and things needing to be implemented:
+- Navbar icons, and links don't work when Nav__black is setup
+- Setup experience and skills cards
+- Fixed up the absolute and relative bug, need to implement this as the website looks a bit 
+  bad on the laptop
+- Accomodate for incredibly small screen sizes, Javascrip Y-SCREEN-INDENT cases
+- Add in a contact forum for users to contact you 
+- Selecting navbar links moves the page down according to the selected item
+- Setup Linked in page
+- Setup Instagram page
+- Appropriate the README github portfolio and projects pages
+- Create resume and potential cover letter
+- Have all these items done within the next week
 ==========================================================================================
 
 Visually stunning websites, corresponded with offensive offensive pen-testing.

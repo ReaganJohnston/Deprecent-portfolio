@@ -17,7 +17,8 @@ html, body, .page-header {
 }
 
 body{
-  background-color: rgba(238, 237, 237, 0.651);
+  /*background-color: rgba(238, 237, 237, 0.651);*/
+  background-color: #2a2a2a; 
 }
 
 html, body, .page-header {

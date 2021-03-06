@@ -10,13 +10,13 @@ import Header from "./../components/header.js"
 
 const imgStyle = {
   width: '98vw',
-  height: '8vw',
+  height: '49vw',
 }
 
 function HomePage(){
   return(
     <>
-    <NavigationBar />
+    <NavigationBar/>
     <div class="card-header">
       <Header />
     </div>
@@ -32,11 +32,12 @@ function HomePage(){
             Over the course of three years, I have learnt many skills, applications, frameworks and enumeration techniques to 
             develop myself and satisify my inherent curiousity.
           </h4>
-          
         </div>
 
       </div>
     </div>
+
+    
     <div class="Full-stack">
 
     </div>

@@ -1,9 +1,8 @@
 
-.Nav {
+.Nav  {
   position: fixed;
   background: transparent;
   width: 100%;
-  position: fixed;
   margin: 0;
   padding: 0;
   display:inline-block;
@@ -54,17 +53,12 @@ nav li a {
   align-items: center;
 }
 
-.Nav__black{
-  background-color: rgba(0,0,0,0.0);
-  width: 100%;
-}
-
 .nav-placeholder-insta{
   background-image:url('./../img/insta.png');
   display:inline-block;
-  height:25px; /* your image height */
+  height:25px; 
   text-indent:-99999em;
-  width:25px; /* your image width */
+  width:25px; 
   background-position: center;
   object-fit: contain;
   background-size: contain;
@@ -78,9 +72,9 @@ nav li a {
 .nav-placeholder-LinkedIn{
   background-image:url('./../img/linked-in.png');
   display:inline-block;
-  height:25px; /* your image height */
+  height:25px; 
   text-indent:-99999em;
-  width:25px; /* your image width */
+  width:25px; 
   background-position: center;
   object-fit:fill;
   background-size: contain;
@@ -93,9 +87,9 @@ nav li a {
 .nav-placeholder-Git{
   background-image:url('./../img/git.png');
   display:inline-block;
-  height:25px; /* your image height */
+  height:25px; 
   text-indent:-99999em;
-  width:25px; /* your image width */
+  width:25px; 
   background-position: center;
   object-fit:fill;
   background-size: contain;
@@ -104,3 +98,12 @@ nav li a {
 .nav-placeholder-Git:hover {
   background-image:url('./../img/git-highlight.png');
 }
+
+.Nav__white{
+  background-color: white;
+  width: 100%;
+}
+
+
+
+

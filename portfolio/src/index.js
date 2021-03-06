@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //styles
 import "./assets/css/header.css";
@@ -24,4 +23,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-reportWebVitals();
