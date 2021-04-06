@@ -1,4 +1,3 @@
-- Card Themed
 - Soft gray background NOT BLACK
 - Use purple as the primary
 - Purple loading when changing pages
@@ -7,7 +6,6 @@
 
 ==========================================================================================
 Issues and things needing to be implemented:
-- Navbar icons, and links don't work when Nav__black is setup
 - Setup experience and skills cards
 - Fixed up the absolute and relative bug, need to implement this as the website looks a bit 
   bad on the laptop
@@ -21,26 +19,29 @@ Issues and things needing to be implemented:
 - Have all these items done within the next week
 ==========================================================================================
 
-Visually stunning websites, corresponded with offensive offensive pen-testing.
 
 ---------
 Who am I?
 ---------
 
+I was never the best at school or academics, I'm just a super curious guy. This website exists to share and motivate me to continue
+developing my ideas. As it documents my projects and challenges, I hope in the near future I would have more abstract knowledge to continue
+creating crazier projects. 
+
+A recent interest of mine was cyber-securiy. Cryptography, enumeration, Privilege Escalation and Pen-testing are all very interesting apsects
+to research into. Continuing foward I can't wait to delve deaper, and apply the knowledge for further projects. 
+
 Hello! my name is Reagan Johnston and I’m a software developer and offensive cyber-security analyst.
 Over the course of three years, I have learnt many skills, applications, frameworks and enumeration techniques to 
 satisfy my curiosity.
 
-For the past three years I have been developing and polising my programming skills to satisify my curiosity 
-
-
-Utilising frameworks such as:
-
 
 -----------
-(White card)
-Full-stack
+Front End
 -----------
+
+
+
 - ReactJS
 - Vue
 - Node
@@ -54,14 +55,34 @@ Full-stack
 - HTML
 - CSS
 
-// Background symbol on this card
-< / >
-
+reaganjohnston.com
+johnstonorganics.com.au
 
 -----------
-(Black card)
+Software Development
+-----------
+- Front end development. Animated, styled and appropriated based on target audiences
+- MVP testing utilising prototyping frameworks
+- Java/mySQL server-side logic, automation
+- GUI builds; Java, C, ReactJS
+
+-----------
 Cyber-security
 -----------
+
+- Offensive Pentesting: nmap, ncat, metasplot, Hydra
+- Basic Privilege Escalation
+- Pentesting on reaganjohnston.com
+
+-----------
+Electonics
+-----------
+- Retro-based Raspberri Pi emulators
+- Teensy controller interfaces
+- Automated printing modules
+
+
+
 nmap, ncat
 gobuster
 burpsuite
