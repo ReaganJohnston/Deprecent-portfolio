@@ -7,7 +7,8 @@
 import React from "react";
 import NavigationBar from "./../components/navbar.js";
 import Header from "./../components/header.js"
-import AboutSection from "./../pages/about.js"
+import About from "./../pages/about.js"
+import Projects from "./../pages/projects.js"
 
 function HomePage(){
   return(
@@ -16,7 +17,8 @@ function HomePage(){
       <div class="card-header">
         <Header />
       </div>
-      <AboutSection/>
+      <About/>
+      <Projects/>
     </>
   );
 }

@@ -82,6 +82,14 @@ Electonics
 - Automated printing modules
 
 
+--------------------------------
+Projects page
+--------------------------------
+
+HAVE A SECTION FOR FUTURE VENTURES!!
+
+
+
 
 nmap, ncat
 gobuster

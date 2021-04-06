@@ -7,17 +7,17 @@
 import React from "react";
 
 const imgStyle = {
-  width: '98vw',
+  width: '100vw',
   height: '30vw',
 }
 
-function AboutSection(){
+function About(){
   return(
     <>
     <div className="bodyFrameworks"
       style={imgStyle}>
       <div className="card-description-header">
-        <h3>MY WORK</h3>
+        <h3>ABOUT ME</h3>
       </div>
       <div className="card-description-body">
         <h4> I was never the best at school or academics, I'm just a super curious guy. This website exists to share and motivate me to continue
@@ -61,4 +61,4 @@ function AboutSection(){
   );
 }
 
-export default AboutSection;
+export default About;

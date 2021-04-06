@@ -1,3 +1,6 @@
+/* --------------
+About me section
+-------------- */
 .body-card{
   display: flex;
   justify-content: center; 
@@ -66,4 +69,12 @@
 .col-lg ul{
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+
+/* --------------
+Projects section
+-------------- */
+.bodyProjects{
+  background-color: white;
 }

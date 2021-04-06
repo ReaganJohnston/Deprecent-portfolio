@@ -15,7 +15,7 @@ import App from './App';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/home" render={(props) => <App {...props} />}/>
+      <Route path="" render={(props) => <App {...props} />}/>
       {/* apply routed pages when created later*/}
     </Switch>
   
