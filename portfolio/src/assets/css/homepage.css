@@ -22,9 +22,10 @@ About me section
 }
 
 .card-description-header h3{
-  color: #cacaca;
+  color: #682ae9;
   font-size: 36px;
   text-align: left;
+  font-weight: 800;
 }
 
 .card-description-body{
@@ -46,19 +47,20 @@ About me section
   display: flex;
   flex-wrap: wrap;
   padding-left: 10%;
-  position: relative;
   width: 90%;
 }
 
 .col-lg{
   flex-basis: 29%;
+  margin-left: -1%;
+  margin-top: 3%;
 } 
 
 .col-lg H5{
-  color: #cacaca;
+  color: #682ae9;
   font-size: 22px;
   line-height: 1.1;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 
@@ -67,10 +69,34 @@ About me section
 }
 
 .col-lg ul{
-  margin-top: 0;
+  margin-top: -4%;
+  margin-left: -4%;
   margin-bottom: 1rem;
 }
 
+.def1 {
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.def2 {
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 10px;
+}
+
+
+.def3 {
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 10px;
+}
 
 /* --------------
 Projects section

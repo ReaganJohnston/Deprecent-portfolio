@@ -86,7 +86,24 @@ Electonics
 Projects page
 --------------------------------
 
-HAVE A SECTION FOR FUTURE VENTURES!!
+//Top description row
+Title, Description, Language
+----------------
+- reaganjohnston.com
+- johnstonorganics.com
+- Raspberri Pi printing document hub
+----------------
+
+//Second section
+Future Ventures (Teach myself in 2021)
+----------------
+- Security and authentication for both websites
+- Stock market command line execution
+- NASDEC/NYSE trading bot
+- Beautiful graphical algorithim sorter
+- Upgrade johnstonorganics to an E-commerce website
+- Attain CompTia Certified Cyber-Security Professional certificate
+- Embedded Systems (IoT)
 
 
 

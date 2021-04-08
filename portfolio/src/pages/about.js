@@ -7,8 +7,8 @@
 import React from "react";
 
 const imgStyle = {
-  width: '100vw',
-  height: '30vw',
+  width: '98vw',
+  height: '38vw',
 }
 
 function About(){
@@ -27,7 +27,7 @@ function About(){
         </h4>
       </div>
       <div className="row-listPanel">
-        <div class="col-lg">
+        <div class="col-lg def1">
           <h5> Software Development</h5>
           <ul>
             <li>Front end development. Animated, styled and appropriated based on target audiences</li>
@@ -37,7 +37,7 @@ function About(){
           </ul>
         </div>
 
-        <div class="col-lg">
+        <div class="col-lg def2">
           <h5> Cyber Security</h5>
           <ul>
             <li>Offensive Pentesting: nmap, ncat, metasploit, Hydra</li>
@@ -46,7 +46,7 @@ function About(){
           </ul>
         </div>
 
-        <div class="col-lg">
+        <div class="col-lg def3">
           <h5> Electronics</h5>
           <ul>
             <li>Retro-based Raspberri Pi emulators</li>
