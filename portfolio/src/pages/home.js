@@ -26,4 +26,7 @@ function HomePage(){
 export default HomePage;
 
 
+/*      <About/>
+      <Projects/>*/
+
 

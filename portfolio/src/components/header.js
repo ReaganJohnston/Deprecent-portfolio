@@ -33,7 +33,7 @@ function Header() {
       className="page-header"
       style={imgStyle}
       >
-        <div className="header-title">
+        <div className="header-title" id="/home">
           <h1><i>Reagan Johnston</i></h1>
         </div>
         <div className="header-sub1">

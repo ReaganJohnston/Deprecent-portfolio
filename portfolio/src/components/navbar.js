@@ -10,10 +10,6 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 
 
-// import insta from "./../assets/img/insta.png"
-// import linked from "./../assets/img/trial-image5.jpg"
-// import git from "./../assets/img/trial-image5.jpg"
-
 import {
   Collapse,
   Navbar,
@@ -21,6 +17,9 @@ import {
   NavLink,
   Nav
 } from "reactstrap";
+
+// const ancor = document.querySelector('#/home');
+// ancor.scrollIntoView({behavior: 'smooth', block: 'center'})
 
 
 class NavigationBar extends React.Component{
@@ -72,7 +71,7 @@ class NavigationBar extends React.Component{
               </NavItem>
 
               <NavItem>
-                <NavLink to="/work" tag={Link}>
+                <NavLink to="/about" tag={Link}>
                   <i className="navbar-work-layout"/> about(  )
                 </NavLink>
               </NavItem>
