@@ -11,6 +11,7 @@ About me section
   background-color: #2a2a2a; 
   border-radius: 10px 10px 10px 10px;
   padding-top: 5%;
+  
 }
 .card-description-header{
   transition: 0.3s;
@@ -99,8 +100,37 @@ About me section
 }
 
 /* --------------
-Projects section
+Projects Section
 -------------- */
 .bodyProjects{
   background-color: white;
+  margin-top: 1%;
+  position: absolute;
 }
+
+.projectsHeader{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.projectsHeader H4{
+  color: #292929;
+  font-size: 30px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.table{
+  margin-left: 10%;
+  width: 78%;
+}
+
+.table th, .table td{
+  border-collapse: collapse;
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+  text-align: left;
+}
+
+
