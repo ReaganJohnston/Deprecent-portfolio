@@ -11,7 +11,6 @@ About me section
   background-color: #2a2a2a; 
   border-radius: 10px 10px 10px 10px;
   padding-top: 5%;
-  
 }
 .card-description-header{
   transition: 0.3s;
@@ -47,14 +46,15 @@ About me section
 .row-listPanel{
   display: flex;
   flex-wrap: wrap;
-  padding-left: 10%;
+  padding-left: 16%;
   width: 90%;
+  height: 45%;
 }
 
 .col-lg{
-  flex-basis: 29%;
+  flex-basis: 18%;
   margin-left: -1%;
-  margin-top: 3%;
+  margin-top: 2%;
 } 
 
 .col-lg H5{
@@ -64,9 +64,9 @@ About me section
   font-weight: 800;
 }
 
-
 .col-lg li{
   color: #cacaca;
+  margin-top: 1%;
 }
 
 .col-lg ul{
@@ -76,28 +76,33 @@ About me section
 }
 
 .def1 {
-  background-color: rgb(36, 36, 36);
+  border-color: rgb(36, 36, 36);
+  border-style: solid;
   border-radius: 20px 20px 20px 20px;
   padding-left: 1%;
   padding-right: 1%;
 }
 
 .def2 {
-  background-color: rgb(36, 36, 36);
+  border-color: rgb(36, 36, 36);
+  border-style: solid;
   border-radius: 20px 20px 20px 20px;
   padding-left: 1%;
   padding-right: 1%;
-  margin-left: 10px;
+  margin-left: 8%;
 }
 
 
 .def3 {
-  background-color: rgb(36, 36, 36);
+  border-color: rgb(36, 36, 36);
+  border-style: solid;
   border-radius: 20px 20px 20px 20px;
   padding-left: 1%;
   padding-right: 1%;
-  margin-left: 10px;
+  margin-left: 8%;
 }
+
+
 
 /* --------------
 Projects Section
@@ -131,6 +136,26 @@ Projects Section
   vertical-align: top;
   border-top: 1px solid #e9ecef;
   text-align: left;
+}
+
+.futureVentures{
+  margin-top: 5%;
+  margin-left: 10.5%;
+}
+
+.venturesTitle H4{
+  color: #292929;
+  font-size: 30px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.venturesContent{
+  padding-top: -10px;
+}
+
+.venturesContent li{
+  padding-top: 5px;
 }
 
 

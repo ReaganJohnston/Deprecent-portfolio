@@ -54,7 +54,6 @@ function About(){
             <li>Automated printing modules. Created methods for more than one user to upload documents onto a server and print the documents anywhere.</li>
           </ul>
         </div>
-
       </div>
     </div>   
     </>
