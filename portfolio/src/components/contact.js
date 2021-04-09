@@ -30,7 +30,7 @@ function Contact(){
           <a className ="contact-insta"
             href="https://www.instagram.com/">Instagram</a>
           <a className="contact-Git"
-            href="https://www.github.com">GitHub</a>
+            href="https://github.com/ReaganJohnston/Projects">GitHub</a>
           <a className="contact-LinkedIn"
           href="https://linkedin.com">LinkedIn</a>
         </ul>

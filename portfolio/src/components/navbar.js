@@ -6,7 +6,6 @@
 */
 
 import React from "react";
-import { Link } from "react-router-dom";
 import classnames from "classnames";
 import { scroller } from "react-scroll";
 
@@ -151,7 +150,7 @@ class NavigationBar extends React.Component{
               <NavItem>
                 <NavLink
                 data-placement="bottom"
-                href="https://www.github.com"
+                href="https://github.com/ReaganJohnston/Projects"
                 target="_blank"
                 title="Check out my projects repo"
                 >
