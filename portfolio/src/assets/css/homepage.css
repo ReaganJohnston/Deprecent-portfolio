@@ -290,11 +290,11 @@ Contact Section
   margin-left: -20%;
   margin-top: -10%;
   text-decoration: none;
-  color: #682ae9;
+  color: #cacaca;
 }
 
 .business a:hover{
-  color: #cacaca;
+  color: #682ae9;
 }
 
 .business li{
