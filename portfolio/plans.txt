@@ -1,25 +1,10 @@
-- Soft gray background NOT BLACK
-- Use purple as the primary
-- Purple loading when changing pages
-- Card flicking sound when hovering over the cards
-- Change Navbar to have a cluster on the right hand side with all the icons
-
 ==========================================================================================
 Issues and things needing to be implemented:
-- Setup experience and skills cards
-- Fixed up the absolute and relative bug, need to implement this as the website looks a bit 
-  bad on the laptop
-- Accomodate for incredibly small screen sizes, Javascrip Y-SCREEN-INDENT cases
-- Add in a contact forum for users to contact you 
-- Selecting navbar links moves the page down according to the selected item
 - Setup Linked in page
 - Setup Instagram page
 - Appropriate the README github portfolio and projects pages
 - Create resume and potential cover letter
-- Have all these items done within the next week
 ==========================================================================================
-
-
 ---------
 Who am I?
 ---------
@@ -31,17 +16,9 @@ creating crazier projects.
 A recent interest of mine was cyber-securiy. Cryptography, enumeration, Privilege Escalation and Pen-testing are all very interesting apsects
 to research into. Continuing foward I can't wait to delve deaper, and apply the knowledge for further projects. 
 
-Hello! my name is Reagan Johnston and I’m a software developer and offensive cyber-security analyst.
-Over the course of three years, I have learnt many skills, applications, frameworks and enumeration techniques to 
-satisfy my curiosity.
-
-
 -----------
 Front End
 -----------
-
-
-
 - ReactJS
 - Vue
 - Node
@@ -81,7 +58,6 @@ Electonics
 - Teensy controller interfaces
 - Automated printing modules
 
-
 --------------------------------
 Projects page
 --------------------------------
@@ -105,19 +81,6 @@ Future Ventures (Teach myself in 2021)
 - Attain CompTia Certified Cyber-Security Professional certificate
 - Embedded Systems (IoT)
 
-
-
-
-nmap, ncat
-gobuster
-burpsuite
-metasploit
-powerup (enumuration)
-Meterpreter
-Hydra
-WinPeas
-RCE
-
 --------------------------------
 About page
 --------------------------------
@@ -133,3 +96,17 @@ Three sections:
 3. Business
 - Resume converted to HTML
 - LinkedIn links
+
+--------------------------------
+Un-used Information
+--------------------------------
+
+nmap, ncat
+gobuster
+burpsuite
+metasploit
+powerup (enumuration)
+Meterpreter
+Hydra
+WinPeas
+RCE

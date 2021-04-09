@@ -43,7 +43,7 @@ function Header() {
                 <Typist.Backspace count={24} delay={1000}/>
                 <span>Cyber Security Analyst.</span>
                 <Typist.Backspace count={24} delay={1000}/>
-                <span>Full Stack Developer.</span>
+                <span>Front End Developer.</span>
                 <Typist.Backspace count={24} delay={1000}/>
               </Typist>
             ): ("")}
