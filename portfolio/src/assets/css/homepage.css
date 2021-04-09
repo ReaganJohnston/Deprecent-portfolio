@@ -226,19 +226,171 @@ Contact Section
 -------------- */
 .bodyContact{
   background-color: #2a2a2a; 
-  padding-left: 8.7%;
+  padding-left: 10%;
   height: 100%;
-  display: flex;
 }
 
 .contact{
-  height: 100%;
+  display: flex;
 }
 
 .contact h3{
   color: #682ae9;
   font-size: 36px;
-  text-align: left;
-  font-weight: 600;
-  justify-content: center; 
+  font-weight: 800;
+  padding-top: 3%;
+}
+
+.professional{
+  padding-top: 10%;
+  margin-left: -11.4%;
+  color: #cacaca;
+  font-size: 28px;
+}
+
+.social{
+  padding-top: 10%;
+  margin-left: 20%;
+  color: #cacaca;
+  font-size: 28px;
+  
+}
+
+.business{
+  padding-top: 10%;
+  margin-left: 20%;
+  color: #cacaca;
+  font-size: 28px;
+}
+
+.professional li{
+  font-size: 15px;
+  margin-left: -5%;
+  margin-top: 3%;
+}
+
+.professional ul{
+  margin-top: -6%;
+  list-style-type: none;
+  margin-left: -6%
+}
+
+.social a{
+  font-size: 10px;
+  margin-left: 10%;
+}
+
+.social ul{
+  margin-left: -29%;
+  margin-top: -18%;
+}
+
+.business a{
+  font-size: 20px;
+  margin-left: -20%;
+  margin-top: -10%;
+  text-decoration: none;
+  color: #682ae9;
+}
+
+.business a:hover{
+  color: #cacaca;
+}
+
+.business li{
+  margin-left: -22%;
+}
+
+.business ul{
+  margin-top: -15%;
+  list-style-type: none;
+}
+
+.contact-insta{
+  background-image:url('./../img/insta.png');
+  display:inline-block;
+  height:40px; 
+  text-indent:-99999em;
+  width:40px; 
+  background-position: center;
+  object-fit: contain;
+  background-size: contain;
+}
+
+
+.contact-insta:hover {
+  background-image:url('./../img/insta_highlight.png');
+}
+
+.contact-LinkedIn{
+  background-image:url('./../img/linked-in.png');
+  display:inline-block;
+  height:40px; 
+  text-indent:-99999em;
+  width:40px; 
+  background-position: center;
+  object-fit:fill;
+  background-size: contain;
+}
+
+.contact-LinkedIn:hover {
+  background-image:url('./../img/linked-in-highlight.png');
+}
+
+.contact-Git{
+  background-image:url('./../img/git.png');
+  display:inline-block;
+  height:40px; 
+  text-indent:-99999em;
+  width:40px; 
+  background-position: center;
+  object-fit:fill;
+  background-size: contain;
+}
+
+.contact-Git:hover {
+  background-image:url('./../img/git-highlight.png');
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  border-color: rgb(0, 0, 0);
+  border-width: medium;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #682ae9;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: #682ae9;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

@@ -118,5 +118,18 @@ Hydra
 WinPeas
 RCE
 
-// Background symbol on this card
-
+--------------------------------
+About page
+--------------------------------
+Three sections:
+1. Professional
+- Email
+- Phone
+2. Social Media
+- johnstonorganics
+- Facebook
+- Instagram
+- Github
+3. Business
+- Resume converted to HTML
+- LinkedIn links
