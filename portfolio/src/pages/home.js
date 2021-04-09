@@ -7,8 +7,8 @@
 import React from "react";
 import NavigationBar from "./../components/navbar.js";
 import Header from "./../components/header.js"
-import About from "./../pages/about.js"
-import Projects from "./../pages/projects.js"
+import About from "./../components/about.js"
+import Projects from "./../components/projects.js"
 
 function HomePage(){
   return(
@@ -24,9 +24,5 @@ function HomePage(){
 }
 
 export default HomePage;
-
-
-/*      <About/>
-      <Projects/>*/
 
 
