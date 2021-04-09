@@ -21,25 +21,49 @@ import {
 class NavigationBar extends React.Component{
   listener = null;
   state = {
-    nav:false
+    nav:false,
+    myText: 'home'
   }
+
+  //Basic Component logic
   componentDidMount() {
-     window.addEventListener("scroll", this.handleScroll);
-   }
-   componentWillUnmount() {
-      window.removeEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  //In the even that the user scrolls, change navbar transparency and text to match
+  handleScroll= () => {
+    if (window.pageYOffset > 601) {
+      if(!this.state.nav){
+      this.setState({ nav: true });
+    }}
+    
+    if(window.pageYOffset < 600){
+      if(this.state.nav){
+      this.setState({ nav: false });
+    }}
+
+    //Logic that changes the navbar text as the user scrolls
+    if(window.scrollY < 600){
+      this.setState({myText: 'home'})
     }
-   handleScroll= () => {
-     if (window.pageYOffset > 350) {
-         if(!this.state.nav){
-           this.setState({ nav: true });
-         }
-     }else{
-         if(this.state.nav){
-           this.setState({ nav: false });
-         }
-     }
-    } 
+
+    if(window.scrollY > 601){
+      this.setState({myText: 'about'})
+    }
+
+    if(window.scrollY > 1600){
+      this.setState({myText: 'projects'})
+    }
+
+    if(window.scrollY > 2300){
+      this.setState({myText: 'contact'})
+    }
+  } 
+
 
   render(){
   return(
@@ -51,7 +75,7 @@ class NavigationBar extends React.Component{
     >
       <div class="grid-container">
         <div className="navbar-left">
-          <i className="changing-title"/> reagan&#95;johnston &#47; home
+          <i className="changing-title"/> reagan&#95;johnston &#47; {this.state.myText}
         </div>
 
         <div className="navbar-right">
