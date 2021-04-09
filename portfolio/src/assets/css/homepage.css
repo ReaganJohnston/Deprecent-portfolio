@@ -169,13 +169,11 @@ Projects Section
 -------------- */
 .bodyProjects{
   background-color: white;
-  margin-top: 1%;
-  position: absolute;
 }
 
 .projectsHeader{
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .projectsHeader H4{
@@ -218,4 +216,29 @@ Projects Section
   padding-top: 5px;
 }
 
+.currentProjects H3{
+  color: white;
+}
 
+
+/* --------------
+Contact Section
+-------------- */
+.bodyContact{
+  background-color: #2a2a2a; 
+  padding-left: 8.7%;
+  height: 100%;
+  display: flex;
+}
+
+.contact{
+  height: 100%;
+}
+
+.contact h3{
+  color: #682ae9;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 600;
+  justify-content: center; 
+}

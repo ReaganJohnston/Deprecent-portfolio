@@ -50,7 +50,7 @@ function About(){
     <div>
     <div className="bodyFrameworks"
       style={imgStyle}>
-        <div className="card-description-header" href="/about">
+        <div className="card-description-header">
           <h3>ABOUT ME</h3>
         </div>
         <div className="card-description-body">
@@ -62,7 +62,7 @@ function About(){
         </div>
         <div className="row-listPanel">
         <div class="card-grid">
-          <a class="card">
+          <div class="card">
             <div style={style1} class="card__background card1">
               <div class="col-lg def1">
                   <h5> Software Development</h5>
@@ -74,8 +74,8 @@ function About(){
                   </ul>
               </div>
             </div>
-          </a>
-          <a class="card">
+            </div>
+            <div class="card">
             <div style={style2} class="card__background card2">
               <div class="col-lg def2">
                 <h5> Cyber Security</h5>
@@ -86,9 +86,9 @@ function About(){
                 </ul>
               </div>
             </div>
-          </a>
-          <a class="card">
-            <div style={style3} class="card__background card3">
+            </div>
+            <div class="card">
+            <div style={style3} class="card__background card3 card">
               <div class="col-lg def3">
                 <h5> Electronics</h5>
                 <ul>
@@ -98,7 +98,7 @@ function About(){
                 </ul>
               </div>
             </div>
-          </a>
+            </div>
         </div>
         </div>
         </div>

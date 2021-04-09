@@ -7,8 +7,9 @@
 import React from "react";
 
 const imgStyle = {
-  width: '99vw',
+  width: '99.1vw',
   height: '44vw',
+  backgroundColor: 'white'
 }
 
 function Projects(){
@@ -17,6 +18,7 @@ function Projects(){
     <div className="bodyProjects"
       style={imgStyle}>
         <div class="currentProjects">
+          <h3>A</h3>
           <div class="projectsHeader">
             <h4>Projects involved</h4>
           </div>
