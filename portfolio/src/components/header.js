@@ -11,7 +11,7 @@ import Typist from 'react-typist';
 
 
 const imgStyle = {
-  width: '96vw',
+  width: '96.2vw',
   height: '48vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
@@ -32,7 +32,7 @@ function Header() {
       className="page-header"
       style={imgStyle}
       >
-        <div className="header-title" id="/home">
+        <div className="header-title" id="home">
           <h1><i>Reagan Johnston</i></h1>
         </div>
         <div className="header-sub1">

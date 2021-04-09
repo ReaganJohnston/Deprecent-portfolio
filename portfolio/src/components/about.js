@@ -50,7 +50,7 @@ function About(){
     <div>
     <div className="bodyFrameworks"
       style={imgStyle}>
-        <div className="card-description-header">
+        <div className="card-description-header" id="about">
           <h3>ABOUT ME</h3>
         </div>
         <div className="card-description-body">

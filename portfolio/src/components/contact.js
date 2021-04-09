@@ -14,7 +14,7 @@ const imgStyle = {
 function Contact(){
   return(
     <>
-    <div className = "bodyContact contact" style={{imgStyle}}>
+    <div className = "bodyContact contact" style={{imgStyle}} id="contact">
       <h3>Contact me</h3>
       <div className="professional">
         <h4>Professional</h4>

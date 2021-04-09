@@ -17,7 +17,7 @@ function Projects(){
     <>
     <div className="bodyProjects"
       style={imgStyle}>
-        <div class="currentProjects">
+        <div class="currentProjects" id="projects">
           <h3>A</h3>
           <div class="projectsHeader">
             <h4>Projects involved</h4>
