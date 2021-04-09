@@ -9,7 +9,7 @@ import NavigationBar from "./../components/navbar.js";
 import Header from "./../components/header.js"
 import About from "./../components/about.js"
 import Projects from "./../components/projects.js"
-import Contact from "./../components/contact.js"
+/*import Contact from "./../components/contact.js"*/
 
 function HomePage(){
   return(
