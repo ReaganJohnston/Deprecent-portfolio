@@ -8,7 +8,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classnames from "classnames";
-
+import { scroller } from "react-scroll";
 
 import {
   Collapse,
@@ -17,10 +17,6 @@ import {
   NavLink,
   Nav
 } from "reactstrap";
-
-// const ancor = document.querySelector('#/home');
-// ancor.scrollIntoView({behavior: 'smooth', block: 'center'})
-
 
 class NavigationBar extends React.Component{
   listener = null;
@@ -65,25 +61,41 @@ class NavigationBar extends React.Component{
           >
             <Nav navbar>
               <NavItem>
-                <NavLink to="/home" tag={Link}>
+                <NavLink onClick={() => scroller.scrollTo('home', {
+                  smooth: true,
+                  offset: -70,
+                  duration: 500,
+                })}>
                   <i className="navbar-home-layout"/> home(  )
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink to="/about" tag={Link}>
+                <NavLink onClick={() => scroller.scrollTo('about', {
+                  smooth: true,
+                  offset: -70,
+                  duration: 500,
+                })}>
                   <i className="navbar-work-layout"/> about(  )
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink to="/about" tag={Link}>
+                <NavLink onClick={() => scroller.scrollTo('projects', {
+                  smooth: true,
+                  offset: -70,
+                  duration: 500,
+                })}>
                   <i className="navbar about-layout"/> projects(  )
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink to="/contact" tag={Link}>
+                <NavLink onClick={() => scroller.scrollTo('contact', {
+                  smooth: true,
+                  offset: -70,
+                  duration: 500,
+                })}>
                   <i className="navbar-contact-layout"/> contact(  )
                 </NavLink>
               </NavItem>
