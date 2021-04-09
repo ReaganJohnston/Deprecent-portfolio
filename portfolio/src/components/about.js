@@ -56,7 +56,7 @@ function About(){
         <div className="card-description-body">
         <h4> I was never the best at school or academics, I'm just a super curious guy. This website exists to share and motivate me to continue
               developing my ideas. As it documents my projects and challenges, I hope in the near future I would have more abstract knowledge to continue
-              creating crazier projects. A recent interest of mine was cyber-securiy. Cryptography, enumeration, Privilege Escalation and Pen-testing are all very interesting apsects
+              creating crazier projects. A recent interest of mine was cyber-securiy. Cryptography, Enumeration, Privilege Escalation and Pen-testing are all very interesting apsects
               to research into. Continuing foward I can't wait to delve deaper, and apply my knowledge for further projects. 
         </h4>
         </div>

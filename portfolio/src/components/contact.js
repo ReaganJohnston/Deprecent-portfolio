@@ -28,11 +28,11 @@ function Contact(){
         <h4>Social Media</h4>
         <ul>
           <a className ="contact-insta"
-            href="https://www.instagram.com/">Instagram</a>
+            href="https://www.instagram.com/" title="Follow me on Instagram">Instagram</a>
           <a className="contact-Git"
-            href="https://github.com/ReaganJohnston/Projects">GitHub</a>
+            href="https://github.com/ReaganJohnston/Projects" title="Check out my portfolio repo">GitHub</a>
           <a className="contact-LinkedIn"
-          href="https://linkedin.com">LinkedIn</a>
+          href="https://linkedin.com" title="Stalk my LinkedIn">LinkedIn</a>
         </ul>
       </div>
 

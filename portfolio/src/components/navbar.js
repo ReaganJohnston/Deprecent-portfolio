@@ -33,7 +33,7 @@ class NavigationBar extends React.Component{
     window.removeEventListener('scroll', this.handleScroll);
   }
 
-  //In the even that the user scrolls, change navbar transparency and text to match
+  //In the event that the user scrolls, change navbar transparency and text to match
   handleScroll= () => {
     if (window.pageYOffset > 601) {
       if(!this.state.nav){
