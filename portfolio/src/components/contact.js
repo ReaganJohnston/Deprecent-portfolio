@@ -14,7 +14,7 @@ const imgStyle = {
 
 const Contact = () =>{
 
-  const history = useHistory();
+  // const history = useHistory();
   // const handleClick = () => history.push('/resume');
 
   return(
