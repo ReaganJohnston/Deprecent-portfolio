@@ -11,12 +11,14 @@ import "./assets/css/preload.css";
 
 //pages
 import App from './App';
+import resume from './components/resume.js'
+
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="" render={(props) => <App {...props} />}/>
-      {/* apply routed pages when created later*/}
+      <Route path="/resume" component={resume}/>
     </Switch>
   
   </BrowserRouter>,

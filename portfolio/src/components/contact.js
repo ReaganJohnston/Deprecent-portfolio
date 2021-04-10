@@ -5,13 +5,18 @@
 */
 
 import React from "react";
+import {useHistory} from 'react-router-dom';
 
 const imgStyle = {
   width: '99vw',
   height: '44vw',
 }
 
-function Contact(){
+const Contact = () =>{
+
+  const history = useHistory();
+  const handleClick = () => history.push('/resume');
+
   return(
     <>
     <div className = "bodyContact contact" style={{imgStyle}} id="contact">
@@ -40,13 +45,13 @@ function Contact(){
         <h4>Business</h4>
         <ul>
           <a href="https://www.johnstonorganics.com">johnstonorganics.com</a>
-          <li><button class="button"><span>Resume(HTML)</span></button></li>
+          {/* <li><button class="button" onClick={handleClick}><span>Resume(HTML)</span></button></li> */}
         </ul>
       </div>
     </div>
 
     </>
-  )
+  );
 }
 
 export default Contact;

@@ -10,6 +10,7 @@ import Header from "./../components/header.js"
 import About from "./../components/about.js"
 import Projects from "./../components/projects.js"
 import Contact from "./../components/contact.js"
+import Resume from "./../components/resume.js"
 
 function HomePage(){
   return(
@@ -21,6 +22,7 @@ function HomePage(){
       <About/>
       <Projects/>
       <Contact/>
+      {/* <Resume/> */}
     </>
   );
 }
