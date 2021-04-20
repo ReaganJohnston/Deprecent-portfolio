@@ -11,7 +11,7 @@ import Typist from 'react-typist';
 
 
 const imgStyle = {
-  width: '98.5vw',
+  width: '99.1vw',
   height: '48vw',
   backgroundImage: `url(${background})`,
   backgroundSize: 'cover',
