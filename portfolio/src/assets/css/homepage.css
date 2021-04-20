@@ -11,6 +11,16 @@ About me section
   background-color: #2a2a2a; 
   border-radius: 10px 10px 10px 10px;
   padding-top: 5%;
+  contain: size paint;
+  overflow: hidden;
+  height: 1%;
+  width: auto;
+  size: auto;
+  /*Ya cunt make sure to use this again*/
+  content: "";
+  display: table;
+  clear: both;
+  max-width: 100%;
 }
 .card-description-header{
   transition: 0.3s;
@@ -55,11 +65,12 @@ About me section
   flex-basis: 18%;
   margin-left: -1%;
   margin-top: 2%;
+  font-size: 0.9vw;
 } 
 
 .col-lg H5{
   color: #682ae9;
-  font-size: 2rem;
+  font-size: 1.7vw;
   line-height: 2;
   font-weight: 800;
   margin-left: 3%;
@@ -110,6 +121,7 @@ Cards Section
   display: flex;
   width: 100%; 
   height: 40%;
+  max-width: 100%;
 }
 .card{
   margin-left: 3%;
@@ -127,26 +139,10 @@ Cards Section
   margin-left: 90%;
 }
 
-
-
 .card__background{
   border-radius: 10px 10px 10px 10px;
   transition: filter 200ms linear, transform 200ms linear;
 }
-
-
-@media (min-width: 540px) {
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 960px) {
-  .card-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 
 .card:before {
   content: "";
@@ -162,6 +158,18 @@ Cards Section
   filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
 }
 
+@media (min-width: 540px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 
 /* --------------
@@ -169,6 +177,12 @@ Projects Section
 -------------- */
 .bodyProjects{
   background-color: white;
+  content: "";
+  display: table;
+  clear: both;
+  width: auto;
+  size: auto;
+  max-width: 100%;
 }
 
 .projectsHeader{
@@ -184,7 +198,7 @@ Projects Section
 }
 
 .table{
-  margin-left: 10%;
+  margin-left: 10vw;
   width: 78%;
 }
 
@@ -224,14 +238,23 @@ Projects Section
 /* --------------
 Contact Section
 -------------- */
+
 .bodyContact{
   background-color: #2a2a2a; 
-  padding-left: 10%;
   height: 100%;
+  content: "";
+  display: table;
+  clear: both;
+  /* position: relative;
+  max-width: 99vw;
+  size: auto; */
 }
 
-.contact{
+.contactRow{
   display: flex;
+  /* width: 80%; */
+  margin-left: 10vw;
+  /* contain: size paint; */
 }
 
 .contact h3{
@@ -239,34 +262,31 @@ Contact Section
   font-size: 36px;
   font-weight: 800;
   padding-top: 3%;
+  padding-left: 10vw;
 }
 
 .professional{
-  padding-top: 10%;
-  margin-left: -11.4%;
+  margin-left: 1%;
   color: #cacaca;
-  font-size: 28px;
+  font-size: 1.3vw;
 }
 
 .social{
-  padding-top: 10%;
-  margin-left: 20%;
   color: #cacaca;
-  font-size: 28px;
-  
+  font-size: 1.3vw;
+  padding-left: 15vw;
 }
 
 .business{
-  padding-top: 10%;
-  margin-left: 20%;
+  padding-left: 20vw;
   color: #cacaca;
-  font-size: 28px;
+  font-size: 1.3vw;
 }
 
 .professional li{
-  font-size: 15px;
-  margin-left: -5%;
-  margin-top: 3%;
+  font-size: 1.3vw;
+  /* margin-left: -10vw; */
+  /* margin-top: 3%; */
 }
 
 .professional ul{
@@ -275,14 +295,13 @@ Contact Section
   margin-left: -6%
 }
 
-.social a{
-  font-size: 10px;
-  margin-left: 10%;
+.social ul{
+  margin-left:-2vw;
+  display: flex;
 }
 
-.social ul{
-  margin-left: -29%;
-  margin-top: -18%;
+.social a{
+  font-size: 10px;
 }
 
 .business a{
@@ -298,12 +317,10 @@ Contact Section
 }
 
 .business li{
-  margin-left: -22%;
 }
 
 .business ul{
   margin-top: -15%;
-  list-style-type: none;
 }
 
 .contact-insta{
@@ -331,6 +348,7 @@ Contact Section
   background-position: center;
   object-fit:fill;
   background-size: contain;
+  margin-left: 1vw;
 }
 
 .contact-LinkedIn:hover {
@@ -346,6 +364,7 @@ Contact Section
   background-position: center;
   object-fit:fill;
   background-size: contain;
+  margin-left: 1vw;
 }
 
 .contact-Git:hover {
@@ -393,4 +412,10 @@ Contact Section
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media (max-width:768px) {
+  .text-center{
+  text-align: center !important;
+  }
 }

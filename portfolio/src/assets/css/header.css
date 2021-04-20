@@ -2,7 +2,12 @@
   /* border-radius: 10px 10px 10px 10px; */
   left: 10px;
   align-self: center;
-  padding: 28px;
+  /* padding: 28px; */
+  /*Ya cunt make sure to use this again*/
+  content: "";
+  display: table;
+  clear: both;
+  max-width: 100%;
 }
 
 .header-title{
