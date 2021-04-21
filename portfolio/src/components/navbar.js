@@ -138,7 +138,7 @@ class NavigationBar extends React.Component{
               <NavItem>
                 <NavLink
                 data-placement="bottom"
-                href="www.linkedin.com/in/reagan-johnston-401477210"
+                href="https://www.linkedin.com/in/reagan-johnston-401477210"
                 target="_blank"
                 title="Follow me on LinkedIn"
                 >

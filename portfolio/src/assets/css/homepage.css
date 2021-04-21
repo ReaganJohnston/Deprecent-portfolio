@@ -278,7 +278,7 @@ Contact Section
 }
 
 .business{
-  padding-left: 20vw;
+  padding-left: 17vw;
   color: #cacaca;
   font-size: 1.3vw;
 }
@@ -292,11 +292,11 @@ Contact Section
 .professional ul{
   margin-top: -6%;
   list-style-type: none;
-  margin-left: -6%
+  margin-left: -3vw
 }
 
 .social ul{
-  margin-left:-2vw;
+  margin-left:-3vw;
   display: flex;
 }
 
@@ -316,11 +316,8 @@ Contact Section
   color: #682ae9;
 }
 
-.business li{
-}
-
 .business ul{
-  margin-top: -15%;
+  margin-top: 1%;
 }
 
 .contact-insta{
