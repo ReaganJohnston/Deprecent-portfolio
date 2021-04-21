@@ -35,7 +35,7 @@ const Contact = () =>{
             <a className="contact-Git"
               href="https://github.com/ReaganJohnston/Projects" title="Check out my portfolio repo">GitHub</a>
             <a className="contact-LinkedIn"
-            href="https://linkedin.com" title="Stalk my LinkedIn">LinkedIn</a>
+            href="www.linkedin.com/in/reagan-johnston-401477210" title="Stalk my LinkedIn">LinkedIn</a>
           </ul>
         </div>
 
